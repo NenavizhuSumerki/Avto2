@@ -11,8 +11,6 @@ namespace Avto2
             Random rand = new Random();
             int value = rand.Next(0, 3);
             string[] mas = new string[4] { "Вишнёвая семерка", "Мерседес", "Матиз", "Ока" };
-           
-
             carAuto.info(mas[value], float.Parse(Console.ReadLine()), 10);
             carAuto.Outinfo();
             Random random = new Random();
