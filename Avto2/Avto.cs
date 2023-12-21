@@ -47,7 +47,7 @@ namespace Avto2
                     zaprawka(float.Parse(Console.ReadLine()));
                     if (ostatok > 0)
                     {
-                        Console.WriteLine($"Машина доехала до точки назначения, а в баке осталось{ostatok} л.");
+                        Console.WriteLine($"Машина доехала до точки назначения, а в баке осталось {ostatok} л.");
                     }
                     if (ostatok < 0)
                     {
